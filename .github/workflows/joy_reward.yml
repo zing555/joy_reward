@@ -24,7 +24,8 @@ jobs:
                   node-version: 10.x
             - name: npm install
               run: |
-                  npm install got download tough-cookie
+                  # npm install got download tough-cookie
+                  npm install
             - name: "运行 【宠汪汪兑换奖励】"
               run: |
                   node jd_joy_reward.js
